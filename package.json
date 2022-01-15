@@ -1,6 +1,6 @@
 {
   "name": "react-context-session-persist",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple React state management library built on top of useContext and useReducer with data persistence using session storage.",
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
@@ -30,6 +30,7 @@
     "react-dom": "^17.0.2",
     "rollup": "^2.64.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
-    "rollup-plugin-typescript2": "^0.31.1"
+    "rollup-plugin-typescript2": "^0.31.1",
+    "typescript": "^4.5.4"
   }
 }
