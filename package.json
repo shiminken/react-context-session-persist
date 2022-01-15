@@ -2,18 +2,34 @@
   "name": "react-context-session-persist",
   "version": "1.0.0",
   "description": "Simple React state management library built on top of useContext and useReducer with data persistence using session storage.",
-  "main": "index.ts",
+  "main": "lib/index.js",
+  "module": "lib/index.esm.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shiminken/react-context-session-persist.git"
+    "url": "https://github.com/shiminken/react-context-session-persist"
   },
   "author": "shiminken",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/shiminken/react-context-session-persist/issues"
   },
-  "homepage": "https://github.com/shiminken/react-context-session-persist#readme"
+  "homepage": "https://github.com/shiminken/react-context-session-persist#readme",
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "@types/react": "^17.0.38",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rollup": "^2.64.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-typescript2": "^0.31.1"
+  }
 }
