@@ -1,0 +1,19 @@
+{
+  "name": "react-context-session-persist",
+  "version": "1.0.0",
+  "description": "Simple React state management library built on top of useContext and useReducer with data persistence using session storage.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shiminken/react-context-session-persist.git"
+  },
+  "author": "shiminken",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shiminken/react-context-session-persist/issues"
+  },
+  "homepage": "https://github.com/shiminken/react-context-session-persist#readme"
+}
