@@ -6,7 +6,7 @@ React state management library built on top of useContext and useReducer with da
 
 ##Installation
 
-```json
+```
 yarn add react-context-session-persist
 ```
 
@@ -18,7 +18,7 @@ yarn add react-context-session-persist
 
 Wrap the main entry file with **PersistentContextProvider.**
 
-```json
+```
 import { PersistentContextProvider } from 'react-persist-context'
 // code before returning...
 return (
@@ -30,7 +30,7 @@ return (
 
 Declare your store with state and reducer as same as redux
 
-```json
+```
 const store = {
     state: yourInitialState
     reducer: yourReducer
@@ -41,7 +41,7 @@ const store = {
 
 After initializing your provider, you can now access the persisted context using usePersistedContext which returns { state, dispatch }
 
-````json
+```
 // component who is accessing
 import { usePersistedContext } from 'react-persist-context'
 
@@ -49,5 +49,5 @@ const CompononentWhoIsUsing = () => {
     const { state, dispatch } = usePersistedContext()
     /* rest of the code*/
     return (...)
-}```
-````
+}
+```
