@@ -19,15 +19,15 @@
   },
   "homepage": "https://github.com/shiminken/react-context-session-persist#readme",
   "peerDependencies": {
-    "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
   "dependencies": {
     "@rollup/plugin-commonjs": "^21.0.1",
     "@rollup/plugin-node-resolve": "^13.1.3",
     "@types/react": "18.0.8",
-    "react": "18.1.0",
-    "react-dom": "18.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "rollup": "^2.64.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-typescript2": "^0.31.1",
